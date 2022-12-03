@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: url(LogIn.jpg) no-repeat center center fixed ;
+    background-size: cover ;
+    opacity: 1.5;
+    height: 100%;
+}
+.container{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 180px 600px;
+    background: none;
+  
+    
+}
+.Myform{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.textbox{
+    border: 0px;
+     border-bottom:  2px solid white;
+    text-align: left;
+    background: none;
+    font-size: 20px;
+    padding: 15px 8px;
+    margin-bottom: 20px;
+    outline: none;
+    
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:black;
+  }
+  input:focus {
+    background: none;
+    color: black;
+  }
+  input:focus + label {
+    color: red;
+}
+#button{
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px 12px;
+    padding: 10px 10px;
+}
+#button:hover{
+    color:white;
+    text-align: center;
+    background: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px 12px;
+    padding: 10px 10px;
+  }
+  .textfield{
+    color: black;
+    font-size: 25px;
+}
+.textfield:hover{
+    color: blue;
+    cursor: pointer;
+}
